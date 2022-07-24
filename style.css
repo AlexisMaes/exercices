@@ -1,0 +1,9 @@
+li>a{
+    text-decoration: none;
+    color: black;
+}
+
+.list-group{
+    width: 40%;
+    margin: auto;
+}
