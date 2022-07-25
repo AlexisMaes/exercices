@@ -1,128 +1,43 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="utf-8">
-    <title>list</title>
+<head>
+    <meta charset="utf-8"/>
+    <title>Mon espace personnel</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-  </head>
-  <body>
-    <div class="container">
-      <header>
-        <div class="head row">
-          <div class="col-8 p-2">
-            <h2>Mon titre de site</h2>
-          </div>
-          <div class="col">
-            <div class="row align-item-center justify-content-end p-2 float-end">
-              <div class="pp">
-                <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" fill="currentColor" class="bi bi-person text-light bg-secondary rounded-circle" viewBox="0 0 16 16">
-                    <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
-                  </svg>
-              </div>
-            </div>
-          </div>
+</head>
+<body>
+<main>
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+    <div class="container-fluid">
+        <a href="#" class="navbar-brand p-2">Mon premier blog</a>
+        <div class="">
+        <ul class="navbar-nav">
+            <li class="nav-item active" aria-current="page">
+                <a href="#" class="nav-link active">Mes articles</a>
+            </li>
+            <li class="nav-item disabled">
+                <a href="#" class="nav-link disabled">Me contacter</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Mon CV</a>
+            </li>
+        </ul>
         </div>
-
-        <nav class="navbar navbar-expand-lg bg-primary justify-content-between">
-                <ul class="navbar-nav">
-                    <li class="nav-item active"><a class="nav-link text-decoration-none text-light" href="#">Accueil</a></li>
-                    <li class="nav-item"><a class="nav-link text-decoration-none text-light" href="#">Ordinateurs</a></li>
-                    <li class="nav-item"><a class="nav-link text-decoration-none text-light" href="#">Accessoires</a></li>
-                    <li class="nav-item"><a class="nav-link text-decoration-none text-light" href="#">Cartes mères</a></li>
-                    <li class="nav-item"><a class="nav-link text-decoration-none text-light" href="#">Cartes graphiques</a></li>
-                </ul>
-                <span class="nav-item about m-2"><a class="navbar-text text-decoration-none text-light" href="#">A propos</a></span>
+    </nav>
+   </div>
+    <div class="container-fluid">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="#">Accueil</a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">Mes article</li>
+            </ol>
         </nav>
-      </header>
-
-      <section class="mt-5">
-        <div class="row justify-content-between">
-          <div class="col-md-4 col-xl-2">
-            <aside>
-              <ul class="list-unstyled list-group">
-                <li class="active list-group-item"><a href="#" style="text-decoration: none; color: rgb(232, 229, 229);">Mon premiere article</a></li>
-                <li class="list-group-item"><a href="#" style="text-decoration: none; color: rgb(139, 139, 139);">Mon second article</a></li>
-                <li class="list-group-item"><a href="#" style="text-decoration: none; color: rgb(151, 151, 151);">Mon troisieme article</a></li>
-                <li class="list-group-item"><a href="#" style="text-decoration: none; color: rgb(139, 139, 139);">Mon quatrieme article</a></li>
-                <li class="list-group-item"><a href="#" style="text-decoration: none; color: rgb(139, 139, 139);">Mon cinquieme article</a></li>
-              </ul>
-            </aside>
-          </div>
-          <div class="col">
-            <article>
-              <h1>Mon premier article</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique augue non nibh imperdiet dictum. In hac habitasse platea dictumst. 
-                Donec porttitor odio ante, vitae rutrum nunc fringilla id. Etiam fermentum tellus eu arcu malesuada, consectetur semper arcu consectetur. 
-                In hac habitasse platea dictumst. Sed elit metus, efficitur non urna vel, consectetur mollis nunc. Duis porttitor orci nulla, et euismod dolor condimentum ac. 
-              <p>In urna lorem, maximus vitae dolor in, ullamcorper maximus purus. Mauris lacus mauris, facilisis vel mattis ac, blandit rutrum ante. </p>
-                Morbi fringilla enim in justo molestie, vitae euismod est faucibus. Sed aliquam ligula sed orci sagittis condimentum. Ut porta orci eget ex interdum, 
-                ac pellentesque odio sodales. Nam vel elit non dui eleifend dignissim id dapibus massa.</p>  
-              <p>Vestibulum vel placerat odio. Nullam maximus sagittis sapien nec accumsan. Fusce at auctor odio. Fusce ut nunc vitae diam iaculis laoreet eu et nulla. 
-                Donec lacus ante, pulvinar eu mollis a, auctor vitae ex. Sed ut molestie ligula. Pellentesque quis eros et sapien lacinia suscipit. 
-                Suspendisse tristique dui at dapibus laoreet. Fusce viverra eget elit nec laoreet.</p>
-
-              <h4>Prix des écrans</h4>
-              <table class="table table-borderless text-center table-striped">
-                <thead class="bg-primary text-white">
-                  <tr>
-                    <th></th>
-                    <th>15 pouces</th>
-                    <th>17 pouces</th>
-                    <th>19 pouces</th>
-                    <th>21 pouces</th>
-                    <th></th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th>Asus</th>
-                    <td>100€</td>
-                    <td>150€</td>
-                    <td>200€</td>
-                    <td>300€</td>
-                    <td><svg role="button" class="text-primary" xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-basket" viewBox="0 0 16 16">
-                            <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9H2zM1 7v1h14V7H1zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5z"/>
-                          </svg></td>
-                  </tr>
-                  <tr>
-                    <th>Dell</th>
-                    <td>80€</td>
-                    <td>120€</td>
-                    <td>140€</td>
-                    <td>200€</td>
-                    <td><svg role="button" class="text-primary" xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-basket" viewBox="0 0 16 16">
-                        <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9H2zM1 7v1h14V7H1zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5z"/>
-                      </svg></td>
-                  </tr>
-                  <tr>
-                    <th>Acer</th>
-                    <td>130€</td>
-                    <td>180€</td>
-                    <td>260€</td>
-                    <td>350€</td>
-                    <td><svg role="button" class="text-primary" xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-basket" viewBox="0 0 16 16">
-                        <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9H2zM1 7v1h14V7H1zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5z"/>
-                      </svg></td>
-                  </tr>
-                  <tr>
-                    <th>Samsung</th>
-                    <td>60€</td>
-                    <td>100€</td>
-                    <td>160€</td>
-                    <td>240€</td>
-                    <td><svg role="button" class="text-primary" xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-basket" viewBox="0 0 16 16">
-                        <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9H2zM1 7v1h14V7H1zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5z"/>
-                      </svg></td>
-                  </tr>
-                </tbody>
-              </table>
-            </article>
-          </div>
-        </div>
-      </section>
     </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>  </body>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
 </html>
